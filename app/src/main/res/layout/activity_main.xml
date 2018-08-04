@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        android:background="#FFFF00">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:text="Balkar"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginRight="50dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="40dp"
+                android:id="@+id/quakes">
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
